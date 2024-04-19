@@ -20,7 +20,7 @@ peopleList.forEach(item => {
 return adultPeople;
 
 }
-// console.log(adults(people));
+console.log(adults(people));
 
 // Q2. Write a function that takes an array of objects, where each object represents a product with a name, price, and category property.
 //  The function should return an object that groups the products by their categories,with the category names as keys and the arrays of products as values.
@@ -57,7 +57,7 @@ if (item.category == 'Electronics') {
 
 }
 
-// console.log("PRODUCTS:", categories(products));
+console.log("PRODUCTS:", categories(products));
 
 
 // Q3. Given an array of objects, where each object represents a student with a name and an array of scores,
@@ -90,7 +90,7 @@ return names
 
   }
 
-  // console.log("Best Students:", studentA(students));
+  console.log("Best Students:", studentA(students));
 
 
 //   Q4. Given an object representing a car, with properties for the make, model, year, and a method to display the car's information, 
