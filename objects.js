@@ -61,7 +61,8 @@ console.log("PRODUCTS:", categories(products));
 
 
 // Q3. Given an array of objects, where each object represents a student with a name and an array of scores,
-//  write a function that returns a new array containing the names of all students whose average score is greater than or equal to 85.
+//  write a function that returns a new array containing the names of all students whose average score is greater
+//  than or equal to 85.
 
 const students = [
     { name: 'John', scores: [90, 80, 85] },
@@ -108,25 +109,25 @@ const car = {
   };
 
 
-  function addMethod(car){
+  function addMethod(cars){
 
 
 
-    car['age'] = function(){
+    cars['age'] = function age(){
         
-    const carAge = 2024-car.year;
-console.log(carAge);
+    const carAge = (new Date().getFullYear())-cars['year'];
+    return(carAge);
     }
 
+ 
 
-
-    return carAge
+    return cars.age()
 
   }
 
-  // console.log("The car:",addMethod(car));
 
-// console.log("new method:", car.age());
+  console.log(addMethod(car));
 
-console.log(car.age());
+
+
 
